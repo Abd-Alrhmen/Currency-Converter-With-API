@@ -1,0 +1,52 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    background-color: #eee;
+    margin: 0;
+}
+h1 {
+    padding: 20px;
+    margin: 0 0 20px;
+    background-color: white;
+    text-align: center;
+}
+.currency-converter {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #DDD;
+}
+.currency-converter input,
+.currency-converter select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.currency-converter input:focus,
+.currency-converter select:focus {
+    outline: none;
+}
+.currency-converter button {
+    padding: 10px;
+    margin: 10px auto;
+    display: block;
+    width: 100%;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    background: #0498ee;
+    cursor: pointer;
+    color: white;
+}
+.currency-converter select option {
+    font-size: 15px;
+    font-weight: 500;
+}
